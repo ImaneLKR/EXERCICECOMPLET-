@@ -1,0 +1,32 @@
+/* Style pour le body, incluant le fond d'écran */
+body {
+    background: url('Images/background.jpg') no-repeat fixed; /* Chemin vers l'image de fond */
+    background-size: cover; /* L'image couvre toute la fenêtre */
+    color: white; /* Couleur du texte en blanc */
+    margin: 0; /* Suppression des marges par défaut */
+    height: 100vh; /* Assure que le body prend toute la hauteur de la fenêtre */
+}
+
+/* Style pour l'en-tête */
+header {
+    padding: 20px; /* Espace autour du header */
+    text-align: center; /* Centrer le contenu du header */
+}
+
+/* Style pour l'image dans le header */
+header img {
+    max-width: 100px; /* Limite la largeur du logo */
+    height: auto; /* Garder les proportions de l'image */
+}
+
+/* Style pour le titre du site dans le header */
+header h1 {
+    font-size: 2.5em; /* Taille du texte du titre */
+    margin: 10px 0; /* Marge au-dessus et en dessous du titre */
+}
+
+/* Style pour le texte dans le header */
+header span {
+    font-size: 1.2em; /* Taille du texte descriptif */
+    color: rgba(255, 255, 255, 0.7); /* Légèrement transparent pour un effet visuel */
+}
